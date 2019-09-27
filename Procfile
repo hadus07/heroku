@@ -1,1 +1,1 @@
-web: node index.js
+web: cd client/ && yarn build && cd ../ && node index.js
